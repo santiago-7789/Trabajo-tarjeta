@@ -1,0 +1,79 @@
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.card{
+    border-right: 2px solid rgb(255, 0, 0);
+    width: fit-content;
+    padding-right: 3px;
+    background-color: rgb(237, 225, 225);
+ 
+
+}
+   .primero {
+    
+
+  
+    padding: 3px 14px;
+    font-size: 20px;
+    background-color: firebrick;
+    color: aliceblue;
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 50%, calc(100% - 12px) 100%, 0 100%);
+}
+
+   
+
+
+.segundo {
+   
+    margin-left: -12px;
+    padding: 3px 6px 3px 18px;
+    font-size: 20px;
+    background-color: yellow;
+}
+.lista_precio {
+    line-height: 1.5;
+}
+
+
+
+.plata-fila {
+    display: inline-flex;
+    align-items: stretch;
+    vertical-align: middle;
+}
+
+.plata-poligono {
+   
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 50%, calc(100% - 12px) 100%, 0 100%);
+}
+
+.ultimo {
+    display: block;
+    padding: 3px 6px;
+    font-size: 20px;
+    background-color: cyan;
+}
+
+.ultimo2 {
+    display: block;
+    padding: 3px 18px 3px 6px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.ulti {
+   display: inline-flex;
+    align-items: center;
+    margin-left: -12px;
+    padding: 3px 6px 3px 18px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 9);
+    color: black;
+
+    
+}
+
+.img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+
+}
